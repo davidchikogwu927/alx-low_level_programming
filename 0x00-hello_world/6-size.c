@@ -1,6 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - A program thats prints the size of various computer- types
+ *
+ * Description: program of various computer types
+ * @parameter: $CFILE
  *
  * Return 0 (success)
  */
