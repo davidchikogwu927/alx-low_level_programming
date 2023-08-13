@@ -1,24 +1,22 @@
 #include <stdio.h>
 /**
- * main - Print numbers separated by commas & space
- *
- * Return: (0)
- *
+ * main - Prog Entry point
+ * Return: always 0 (success)
  */
-int main(void)
-{
-	int numbers = '0';
 
-	while (numbers <= '9')
+int main(void)
 	{
-		putchar(numbers);
-		if (numbers <= '8');
+	int a;
+
+	for (a = 0; a < 10; a++)
+	{
+		putchar(a + '0');
+		if (a < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		numbers++;
 	}
 	putchar('\n');
 	return (0);
-}
+	}
