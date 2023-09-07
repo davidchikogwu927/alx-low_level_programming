@@ -3,9 +3,9 @@
     "0x0C-more_malloc_free/0-malloc_checked.c": [
       {
         "id": "997cf011-da56-44ca-8575-3e017bbb643f",
-        "line": 6,
-        "version": 7,
-        "index": 77
+        "line": 1,
+        "version": 18,
+        "index": 0
       }
     ]
   }
